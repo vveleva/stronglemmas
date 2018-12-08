@@ -57,6 +57,7 @@ GEM
     arel (9.0.0)
     ast (2.4.0)
     awesome_print (1.8.0)
+    bcrypt (3.1.12)
     bindex (0.5.0)
     bootsnap (1.3.2)
       msgpack (~> 1.0)
@@ -305,6 +306,7 @@ DEPENDENCIES
   annotate
   annotate_gem
   awesome_print
+  bcrypt (~> 3.1.7)
   bootsnap (>= 1.1.0)
   byebug
   coffee-rails (~> 4.2)
