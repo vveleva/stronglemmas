@@ -17,8 +17,13 @@
 /storage/*
 !/storage/.keep
 
-/node_modules
++#Ignore Webpack external modules and generated files
+node_modules/
+app/assets/javascripts/*-bundle.js
+app/assets/javascripts/*-bundle.js.map
 /yarn-error.log
+yarn-debug.log*
+.yarn-integrity
 
 /public/assets
 .byebug_history
@@ -31,3 +36,5 @@
 .DS_Store
 .ruby-gemset
 .ruby-version
+/public/packs
+/public/packs-test
