@@ -1,8 +1,9 @@
 {
-  "name": "super_samurai",
+  "name": "stronglemmas",
   "version": "0.0.1",
   "description": "",
-  "repository": "https://github.com/EnjoyTech/super_samurai",
+  "repository": "https://github.com/vveleva/stronglemmas",
+  "author": "Velina V Veleva",
   "scripts": {
     "build": "webpack --config config/webpack/production.config.js --bail",
     "dev": "webpack-dev-server --config config/webpack/webpack.hot.config.js --progress --inline",
