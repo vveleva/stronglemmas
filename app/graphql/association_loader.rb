@@ -1,0 +1,1 @@
+AssociationLoader = API::Graphql::AssociationLoader

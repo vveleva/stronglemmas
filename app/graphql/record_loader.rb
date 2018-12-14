@@ -1,0 +1,1 @@
+RecordLoader = API::Graphql::RecordLoader

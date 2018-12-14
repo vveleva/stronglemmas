@@ -42,6 +42,16 @@ gem 'haml'
 gem 'kaminari'
 gem 'timecop'
 
+
+# GraphQL #
+gem 'graphql'
+gem 'graphql-batch'
+gem 'graphql-guard'
+gem 'graphiql-rails', group: :development
+gem 'apollo_upload_server', '2.0.0.beta.1'
+
+
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'awesome_print'
