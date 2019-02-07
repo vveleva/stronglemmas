@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "",
   "repository": "https://github.com/vveleva/stronglemmas",
-  "author": "Velina V Veleva",
+  "author": "",
   "scripts": {
     "build": "webpack --config config/webpack/production.config.js --bail",
     "dev": "webpack-dev-server --config config/webpack/webpack.hot.config.js --progress --inline",
@@ -23,7 +23,6 @@
       "git add"
     ]
   },
-  "author": "",
   "license": "MIT",
   "dependencies": {
     "@types/graphql": "^0.11.7",
@@ -35,6 +34,7 @@
     "apollo-link-error": "^1.0.9",
     "apollo-link-http": "^1.2.0",
     "axios": "^0.18.0",
+    "babel-preset-env": "^1.7.0",
     "base64-arraybuffer": "^0.1.5",
     "bootstrap": "^3.3.7",
     "classnames": "^2.2.0",
@@ -64,7 +64,7 @@
     "react-apollo": "^2.0.1",
     "react-bootstrap": "^0.31.1",
     "react-click-outside": "^2.0.0",
-    "react-dom": "^15.6.1",
+    "react-dom": "^16.6.3",
     "react-geosuggest": "^1.25.0",
     "react-kronos": "^1.6.0",
     "react-modal": "^1.6.5",

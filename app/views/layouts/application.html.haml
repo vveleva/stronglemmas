@@ -5,12 +5,12 @@
     = csrf_meta_tags
     = csp_meta_tag
     = stylesheet_link_tag "application", media: "all"
- %body
-   = yield
+  %body
+    = yield
 
   = javascript_include_tag "application"
   = webpack_bundle_tag "commons"
-  = webpack_bundle_tag "shared"
+  -# = webpack_bundle_tag "shared"
   = javascript_include_tag "react_support"
   = content_for?(:js_bundle) ? yield(:js_bundle) : ''
-  = content_for?(:javascript) ? yield(:javascript) : ''
+  -# = content_for?(:javascript) ? yield(:javascript) : ''
